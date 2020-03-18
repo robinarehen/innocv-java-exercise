@@ -12,7 +12,7 @@
 	<artifactId>innocv-java-exercise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>innocv-java-exercise</name>
-	<description>In this project we will go to crear a simple CRUD with other importants practice</description>
+	<description>In this project we are going to create a simple CRUD with other importants practices</description>
 
 	<properties>
 		<java.version>1.8</java.version>
