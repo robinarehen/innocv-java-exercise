@@ -11,9 +11,9 @@ public interface UserService {
 	
 	Optional<UserDto> updateUser(UserDto userDto);
 	
-	void deleteUser(UserDto userDto);
+	void deleteUser(Integer ID);
 	
 	List<UserDto> getAllUsers();
 	
-	Optional<UserDto> getUserById();
+	Optional<UserDto> getUserById(Integer ID);
 }

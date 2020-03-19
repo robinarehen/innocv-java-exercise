@@ -24,7 +24,7 @@ public class UserServiceImplTest {
 
 		LocalDate birthDate = LocalDate.of(1987, 11, 19);
 
-		userDto.setName("Amir");
+		userDto.setName("Angie");
 		userDto.setBirthDate(birthDate);
 
 		Optional<UserDto> userResponse = this.userServiceImpl.createUser(userDto);

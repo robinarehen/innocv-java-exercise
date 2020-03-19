@@ -1,6 +1,7 @@
 package com.innocv.test.exercise.dto;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,4 +18,5 @@ public class UserDto {
 	private String name;
 	@NonNull
 	private LocalDate birthDate;
+	private LocalDateTime createDate;
 }

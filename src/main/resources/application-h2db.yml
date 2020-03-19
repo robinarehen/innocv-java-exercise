@@ -1,8 +1,5 @@
 
 spring:
-  profiles:
-    active:
-    - testH2Embebbed
   datasource:
     url: jdbc:h2:mem:testdb
     username: sa
